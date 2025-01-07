@@ -1,0 +1,36 @@
+{
+  "config": {
+    "flow_title": "Ventilateurs d'Area",
+    "step": {
+      "user": {
+        "title": "Configuration Area Fans",
+        "description": "Sélectionnez les ventilateurs à exclure pour chaque pièce",
+        "data": {
+          "area_*": "Ventilateurs à exclure de {}"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Une seule instance est autorisée." 
+    }
+  },
+  "state_attributes": {
+    "count": "Nombre de ventilateurs allumés",
+    "total": "Nombre total de ventilateurs",
+    "count_of": "Nombre de ventilateurs allumés sur le total",
+    "fans_on": "Ventilateurs allumés",
+    "fans_off": "Ventilateurs éteints",
+    "excluded_fans": "Ventilateurs exclus"
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configuration Area Fans",
+        "description": "Modifiez les ventilateurs à exclure pour chaque pièce",
+        "data": {
+          "area_*": "Ventilateurs à exclure de {}"
+        }
+      }
+    }
+  }
+}
