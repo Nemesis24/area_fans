@@ -1,0 +1,36 @@
+{
+  "config": {
+    "flow_title": "Area Fans",
+    "step": {
+      "user": {
+        "title": "Area Fans Configuration",
+        "description": "You can exclude fans for each room by selecting them.\n\nThe integration only detects fans that are assigned to a room.",
+        "data": {
+          "area_*": "Fans to exclude from {}"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Only a single instance is allowed."
+    }
+  },
+  "state_attributes": {
+    "count": "Number of fans on",
+    "total": "Total number of fans",
+    "count_of": "Number of fans on out of total",
+    "fans_on": "Fans on",
+    "fans_off": "Fans off",
+    "excluded_fans": "Excluded fans"
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Area Fans Configuration",
+        "description": "You can exclude fans for each room by selecting them.\n\nThe integration only detects fans that are assigned to a room.",
+        "data": {
+          "area_*": "Fans to exclude from {}"
+        }
+      }
+    }
+  }
+}

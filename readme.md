@@ -4,7 +4,7 @@
 
 ## Description
 
-L'intégration **Area Fans** permet de gérer les ventilateurs par zone dans Home Assistant. Vous pouvez exclure certains ventilateurs de chaque zone et surveiller l'état des ventilateurs dans chaque zone.
+L'intégration **Area Fans** permet de gérer les ventilateurs par zone dans Home Assistant. Vous pouvez exclure certains ventilateurs de chaque zone et surveiller l'état des ventilateurs dans chaque zone. De plus, vous pouvez allumer ou éteindre tous les lventilateurs d'une zone à l'aide d'un switch.
 
 ## Installation
 
@@ -34,9 +34,9 @@ Non supporté.
 
 ## Utilisation
 
-### Capteurs
+### Switch
 
-L'intégration crée des capteurs pour chaque zone avec les attributs suivants :
+L'intégration crée un switch pour chaque zone ainsi qu'un switch pour toute la maison avec les attributs suivants :
 
 - `count`: Nombre de ventilateurs allumés.
 - `total`: Nombre total de ventilateurs.
