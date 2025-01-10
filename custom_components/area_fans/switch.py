@@ -139,7 +139,7 @@ class RoomFansSwitch(SwitchEntity):
 
         for fan in self._fans:
             self.async_on_remove(
-                self.hass.helpers.event.async_track_state_change(
+                self.hass.helpers.event.async_track_state_change_event(
                     fan, async_state_changed
                 )
             )
